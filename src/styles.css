@@ -1,0 +1,51 @@
+html,
+body {
+  background-image: linear-gradient(
+    -45deg,
+    hsl(204, 92%, 75%),
+    hsl(204, 86%, 53%)
+  );
+  height: 100vh;
+}
+.App {
+  font-family: "Open Sans", sans-serif;
+  width: 60%;
+  color: #f3f3f3;
+  font-size: 16px;
+}
+
+.asdfasdfasdf {
+  font-family: "Permanent Marker", cursive;
+  text-shadow: 2px 2px 2px #2e2e2e;
+}
+
+#title {
+  font-size: 50px;
+  font-family: "Permanent Marker", cursive;
+  letter-spacing: 4px;
+  text-shadow: 2px 2px 2px #2e2e2e;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  padding: 6%;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
